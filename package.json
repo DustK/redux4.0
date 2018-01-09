@@ -1,0 +1,20 @@
+{
+  "name": "Redux4.0",
+  "version": "1.0.0",
+  "description": "react+redux",
+  "main": "index.js",
+  "repository": "https://github.com/DustK/redux4.0.git",
+  "author": "Jean",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-scripts-ts": "^2.8.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start"
+  }
+}
