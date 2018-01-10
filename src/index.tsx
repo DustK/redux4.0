@@ -1,16 +1,19 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Provider from "react-redux";
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 
-class Hello extends React.Component{
-    render(){
-        return (
-            <h1>hello Jean</h1>
-        )
-    }
-}
+import Reducer from "./reducers";
 
+// 导入组件
+import App from "./components/APP";
+
+
+const store = createStore(Reducer);
 
 ReactDOM.render(
-    <Hello/>,document.getElementById("app")
-)
+    <Provider store = { store }>
+       <App/>
+    </Provider>,document.getElementById("app")
+);
+
