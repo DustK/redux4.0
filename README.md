@@ -7,3 +7,5 @@ redux4.0
     3.action 是一个用于描述已发生事件的普通对象;
     4.reducer负责计算action（接受state和action，返回新的state函数），描述某个触发事件产生的某种效果；
     
+##第三步：
+    1.书写APP组件（首页）
