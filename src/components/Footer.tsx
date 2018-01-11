@@ -6,7 +6,12 @@ import PropTypes from 'prop-types'
 class Footer extends React.Component{
     render(){
         return (
-            <div>Jean</div>
+        <p>
+           <button>show</button>
+           <button>all</button>
+           <button>active</button>
+           <button>completed</button>
+        </p>
         )
     }
 };

@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import Reducer from "./reducers";
 
 // 导入组件
-import App from "./components/APP";
+import App from "./containers/APP";
 
 
 const store = createStore(Reducer);
